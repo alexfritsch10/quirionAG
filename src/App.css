@@ -1,0 +1,59 @@
+.App {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.App-logo {
+  height: 80px;
+  position: absolute;
+  top: -1px;
+  left: 1px;
+}
+
+.App-header {
+  position:relative;
+  background-color: #20224B;
+  height: 40px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 35px;
+  position: absolute;
+  top: -16px;
+  left: 40%;
+}
+
+.flex-container {
+  font-size: large;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #FBFBFB;
+}
+
+.chart {
+  flex-basis: 600px;
+  flex-grow: 1;
+  margin: 50px 0
+}
+
+.chart-two {
+  background-color: #F0EEF1;
+}
+
+.rich-text-content {
+  flex-basis: 700px;
+  flex-grow: 1;
+  padding: 30px 30px;
+}
+
+.contact-form {
+  height: 600px;
+  flex-basis: 700px;
+  flex-grow: 1;
+  padding: 30px 30px;
+}
